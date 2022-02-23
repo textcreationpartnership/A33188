@@ -1,0 +1,676 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>The Citie letany</title>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1648</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 13 KB of XML-encoded text transcribed from 5 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2014-11">2014-11 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A33188</idno>
+            <idno type="STC">Wing C4355</idno>
+            <idno type="STC">ESTC R27254</idno>
+            <idno type="EEBO-CITATION">09790495</idno>
+            <idno type="OCLC">ocm 09790495</idno>
+            <idno type="VID">44071</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online text creation partnership.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A33188)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 44071)</note>
+            <note>Images scanned from microfilm: (Early English books, 1641-1700 ; 1353:2)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>The Citie letany</title>
+               </titleStmt>
+               <extent>6 p.   </extent>
+               <publicationStmt>
+                  <publisher>s.n.],</publisher>
+                  <pubPlace>[London :</pubPlace>
+                  <date>1648.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>A royalist satire in verse.</note>
+                  <note>Reproduction of original in the British Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Great Britain --  History --  Civil War, 1642-1649 --  Anecdotes</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2012-06</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2012-07</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2013-02</date>
+            <label>John Pas</label>Sampled and proofread</change>
+         <change>
+            <date>2013-02</date>
+            <label>John Pas</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2014-03</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:44071:1" rendition="simple:additions"/>
+            <p>THE CITIE LETANY.</p>
+            <p>To the CITIE:</p>
+            <q>
+               <lg>
+                  <l>
+                     <hi>Was't not enough you rays'd a Warre</hi>
+                  </l>
+                  <l>
+                     <hi>Againſt your gracious King?</hi>
+                  </l>
+                  <l>
+                     <hi>And ſo did the whole Kingdome marre,</hi>
+                  </l>
+                  <l>
+                     <hi>Who ſuffer for your ſin.</hi>
+                  </l>
+               </lg>
+               <lg>
+                  <l>
+                     <hi>Or that Gods Worſhip you pull'd downe,</hi>
+                  </l>
+                  <l>
+                     <hi>And Error did advance,</hi>
+                  </l>
+                  <l>
+                     <hi>That ſo King</hi> NOL <hi>might weare the Crowne,</hi>
+                  </l>
+                  <l>
+                     <hi>And</hi> HARRY MARTIN <hi>dance.</hi>
+                  </l>
+               </lg>
+               <lg>
+                  <l>
+                     <hi>Were not theſe Crimes ſufficiently</hi>
+                  </l>
+                  <l>
+                     <hi>Able to damne you all?</hi>
+                  </l>
+                  <l>
+                     <hi>But like baſe Groomes, ſubmiſſively</hi>
+                  </l>
+                  <l>
+                     <hi>You 'fore your Slaves muſt fall.</hi>
+                  </l>
+               </lg>
+               <lg>
+                  <l>
+                     <hi>May you be therefore all horn-mad,</hi>
+                  </l>
+                  <l>
+                     <hi>And in the open places,</hi>
+                  </l>
+                  <l>
+                     <hi>May Snap-ſack Boyes your pi'd Hens tread,</hi>
+                  </l>
+                  <l>
+                     <hi>And that before your faces.</hi>
+                  </l>
+               </lg>
+            </q>
+            <q>—Nemo me impuné laceſſit.</q>
+            <p>
+               <hi>Printed in the Yeare,</hi> 1648.</p>
+         </div>
+      </front>
+      <body>
+         <div type="text">
+            <pb facs="tcp:44071:2"/>
+            <pb n="1" facs="tcp:44071:2"/>
+            <head>THE Citie Letany.</head>
+            <lg>
+               <l>WEE have beene blinded (God he knowes)</l>
+               <l>And led away with ſpecious ſhowes,</l>
+               <l>Taking thoſe for our Friends, were Foes</l>
+               <l>Therefore, to our infinite woes.</l>
+            </lg>
+            <lg>
+               <l>From being Schiſmatically inclin'd</l>
+               <l>Gainſt Biſhops, Officialls, or any of that kind,</l>
+               <l>From walking to <hi>Westminſter</hi> to put the Sophies in mind,</l>
+               <l>
+                  <hi>Libera nos.</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>From driving the King away from <hi>White-ball,</hi>
+               </l>
+               <l>From ſending our ſervants for Juſtice to call,</l>
+               <l>As when great <hi>Strafford</hi> we cauſed to fall,</l>
+               <l>
+                  <hi>Libera nos.</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>From perſecuting our Soveraigne with Fire and Sword,</l>
+               <l>From murthering Biſhops, and ſuch Acts abhor'd,</l>
+               <l>From Grand Committees, and their Counſell boord,</l>
+               <l>
+                  <hi>Libera nos.</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>From fighting a Battell at <hi>Edge-hill</hi> againe,</l>
+               <l>Where many Reverend Cuckolds were flaine,</l>
+               <l>From hunting after the King in vaine,</l>
+               <l>
+                  <hi>Libera nos.</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>From being beaten and ſtript to the skin,</l>
+               <l>The caſe that we once in <hi>Cor<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>wall</hi> were in,</l>
+               <l>Which we confeſſe was a ſcourge for our ſin,</l>
+               <l>
+                  <hi>Libera nos.</hi>
+               </l>
+            </lg>
+            <pb n="2" facs="tcp:44071:3"/>
+            <lg>
+               <l>From pulling downe Croſſus, and pictures of Men,</l>
+               <l>From tearing Bookes of Common-Prayer agen,</l>
+               <l>From entring a Con-ven-ticle, and then—</l>
+               <l>
+                  <hi>Libera nos.</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>From being nooſed by the <hi>Weſtminſterians,</hi>
+                  <note place="margin">The <hi>Lyurnall,</hi> and the witty walking <hi>Oc<g ref="char:EOLhyphen"/>currances.</hi>
+                  </note>
+               </l>
+               <l>From giving cred it to our wiſe Pamph<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>eterians,</l>
+               <l>From being this day <hi>Independents,</hi> &amp; the next <hi>Presbyterians,</hi>
+               </l>
+               <l>
+                  <hi>Libera nos.</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>From being Reformed out of our Lands,</l>
+               <l>And being wounded by
+<note n="*" place="margin">Informers.</note> inviſible hands,</l>
+               <l>From that Religion on blood which ſtands,</l>
+               <l>
+                  <hi>Libera nos.</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>From eating our God, and killing our KING,</l>
+               <l>The damnable Dittie the Jeſuits ſing,</l>
+               <l>Though <hi>Peters</hi> and <hi>Dell</hi> believe no ſuch thing,</l>
+               <l>
+                  <hi>Libera nos.</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>From <hi>Rainsborough,</hi> and his Levelling
+<note n="*" place="margin">The late Adjutators, five whereof were taken a<g ref="char:EOLhyphen"/>way, and five hundred left behind.</note> Crew,</l>
+               <l>That hate the old way, yet can't find a new,</l>
+               <l>From <hi>Hewſons</hi> Boyes that our bags would view,</l>
+               <l>
+                  <hi>Libera nos.</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>From Parliament-men that will drink on the ſcore,</l>
+               <l>From <hi>Mildmay</hi> and his painted Whore,</l>
+               <l>From begging our owne at the Parliament dore,</l>
+               <l>
+                  <hi>Libera nos.</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>From being
+<note n="*" place="margin">As the Parl. did the Citi<g ref="char:EOLhyphen"/>zens at the firſt, uſing them onely as men uſe Poſt-Horſes, tyre them out, and then leave them to reco<g ref="char:EOLhyphen"/>ver and now they have made the moſt of thoſe Tray<g ref="char:EOLhyphen"/>terous fooles, they leave them to the mercy of a mercileſſe Army.</note> drawne in, and then left in the lurch,</l>
+               <l>When we are rob'd of our freedom, our K. &amp; our Church,</l>
+               <l>From the Divell i'th' Temple, and God in the Porch,</l>
+               <l>
+                  <hi>Libera nos.</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>From a parti-colour'd Synod, that for foure ſhillings a<g ref="char:EOLhyphen"/>day,</l>
+               <l>Will as their Pay-maſters bids them ſay,</l>
+               <l>And their Mother the Church of <hi>England</hi> betray,</l>
+               <l>
+                  <hi>Libera nos.</hi>
+               </l>
+            </lg>
+            <pb n="3" facs="tcp:44071:3"/>
+            <lg>
+               <l>From an heard of Hinch-boyes, or an <hi>Independant</hi> Prieſt,</l>
+               <l>Such as <hi>Symſon, Peters, Dell,</hi> and the reſt,</l>
+               <l>
+                  <hi>Knoles, Saltmarſh, Goodwin,</hi> and the boyes moſt bleſt,</l>
+               <l>
+                  <hi>Libera nos.</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>From the Councell of Warre that intend to ſcoure us,</l>
+               <l>From the hugy Army that ſo over-pow'r us,</l>
+               <l>From the Men at <hi>Weſtminſter</hi> that intend to devour us,</l>
+               <l>
+                  <hi>Libera nos.</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>From <hi>John</hi> of <hi>London,</hi> that
+<note n="*" place="margin">
+                     <hi>John Lilburn,</hi> who was in his minoritie an Apprentice to a Cloth-wor<g ref="char:EOLhyphen"/>ker in <hi>Read<g ref="char:EOLhyphen"/>ing,</hi> and now by his Facti<g ref="char:EOLhyphen"/>ous underta<g ref="char:EOLhyphen"/>kings is be<g ref="char:EOLhyphen"/>come as fa<g ref="char:EOLhyphen"/>mous as <hi>Jack Cade.</hi>
+                  </note> Sheare-man of <hi>Reading,</hi>
+               </l>
+               <l>Who for his fam'd Pamphlets is worthy the heading,</l>
+               <l>From his gain-ſaying, and <hi>Overton's</hi> bidding,</l>
+               <l>
+                  <hi>Libera nos.</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>But ſeeing we are like to loſe all we have,</l>
+               <l>And nothing but our ſinnes to ſave,</l>
+               <l>'Tis therefore time that now we crave,</l>
+               <l>
+                  <hi>Libera nos.</hi>
+               </l>
+            </lg>
+            <div type="part">
+               <head>
+                  <hi>The Citizens having found their Error, and how groſſe<g ref="char:EOLhyphen"/>ly they have beene abuſed by this pretended Par<g ref="char:EOLhyphen"/>liament, returne to their firſt principles:</hi> (And ſay)</head>
+               <lg>
+                  <l>THat it may pleaſe thee, we once more</l>
+                  <l>May have the Trading we had before,</l>
+                  <l>And to that end our King reſtore,</l>
+                  <l>
+                     <hi>Queſumus te.</hi>
+                  </l>
+               </lg>
+               <lg>
+                  <l>That it may pleaſe thee, to Aſſent,</l>
+                  <l>Our everlaſting Parliament</l>
+                  <l>May with fore-paſt
+<note n="*" place="margin">Which would they b<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                           <desc>•</desc>
+                        </gap> were a great happineſſe, ſince then w<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                           <desc>•</desc>
+                        </gap> were in ſome hope to reco<g ref="char:EOLhyphen"/>ver our ſelve<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                           <desc>•</desc>
+                        </gap> but for ought I ſee, diſpai<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>
+                        <g ref="char:EOLhyphen"/>ing of their owne ſafetie they are reſo<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>
+                        <g ref="char:EOLhyphen"/>ved to bury themſelves the ruine of this Nation</note> miſchiefes be content,</l>
+                  <l>
+                     <hi>Queſumus te.</hi>
+                  </l>
+               </lg>
+               <lg>
+                  <l>That it may pleaſe thee, to diſperſe</l>
+                  <l>Them all about the Univerſe,</l>
+                  <l>With their fellow Jewes for to converſe,</l>
+                  <l>
+                     <hi>Queſumus te.</hi>
+                  </l>
+               </lg>
+               <pb n="4" facs="tcp:44071:4"/>
+               <lg>
+                  <l>That it may pleaſe thee, in any wiſe</l>
+                  <l>To rid us of the damn'd Exciſe,</l>
+                  <l>Free Quarter, or any ſuch <hi>Dutch</hi> device,</l>
+                  <l>
+                     <hi>Queſumus te.</hi>
+                  </l>
+               </lg>
+               <lg>
+                  <l>That it may pleaſe thee, back to call</l>
+                  <l>Our Epiſtles, and our Goſpels all,</l>
+                  <l>And give our Government Epiſcopall,</l>
+                  <l>
+                     <hi>Queſumus te.</hi>
+                  </l>
+               </lg>
+               <lg>
+                  <l>That it may pleaſe thee, by thy power Divine,</l>
+                  <l>To confound thoſe Traytors, who had a deſigne</l>
+                  <l>The Engliſh Monarchy to undermine,</l>
+                  <l>
+                     <hi>Queſumus te.</hi>
+                  </l>
+               </lg>
+               <lg>
+                  <l>And for that purpoſe, to ſend to Hell</l>
+                  <l>The two vile Traytors, <hi>Peters</hi> and <hi>Dell,</hi>
+                  </l>
+                  <l>With <hi>Faux</hi> and <hi>Catesby</hi> for to dwell,</l>
+                  <l>
+                     <hi>Queſumus te.</hi>
+                  </l>
+               </lg>
+               <lg>
+                  <l>That it may pleaſe thee, to ſeat thine owne</l>
+                  <l>Anointed once more on His Throne,</l>
+                  <l>And confound baſe Rebells every one,</l>
+                  <l>
+                     <hi>Queſumus te.</hi>
+                  </l>
+               </lg>
+               <lg>
+                  <l>That it may pleaſe thee, to Illuminate</l>
+                  <l>The peoples eyes to ſee their ſtate,</l>
+                  <l>And to right themſelves e're it be
+<note n="*" place="margin">
+                        <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>or ſhould <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>y delay, &amp; <gap reason="illegible" resp="#KEYERS" extent="1 word">
+                           <desc>〈◊〉</desc>
+                        </gap> take hold the preſent <gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                           <desc>••</desc>
+                        </gap>portunitie, <gap reason="illegible" resp="#KEYERS" extent="1 word">
+                           <desc>〈◊〉</desc>
+                        </gap> ſuffer the <gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                           <desc>••</desc>
+                        </gap>nding for<g ref="char:EOLhyphen"/>
+                        <gap reason="illegible" resp="#KEYERS" extent="3 letters">
+                           <desc>•••</desc>
+                        </gap> to ſettle <gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                           <desc>••</desc>
+                        </gap>mſelves in <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>onſtant <gap reason="illegible" resp="#KEYERS" extent="1 word">
+                           <desc>〈◊〉</desc>
+                        </gap> their Ty<g ref="char:EOLhyphen"/>
+                        <gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                           <desc>••</desc>
+                        </gap>ts inſtate <gap reason="illegible" resp="#KEYERS" extent="3 letters">
+                           <desc>•••</desc>
+                        </gap>mſelves in <gap reason="illegible" resp="#KEYERS" extent="1 word">
+                           <desc>〈◊〉</desc>
+                        </gap> infringea<g ref="char:EOLhyphen"/>
+                        <gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                           <desc>••</desc>
+                        </gap> power, <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>y may for <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>r bid fare<g ref="char:EOLhyphen"/>
+                        <gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                           <desc>••</desc>
+                        </gap> all free<g ref="char:EOLhyphen"/>
+                        <gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                           <desc>••</desc>
+                        </gap>e &amp; hap<g ref="char:EOLhyphen"/>
+                        <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>eſſe, and <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>ever ex<g ref="char:EOLhyphen"/>
+                        <gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                           <desc>••</desc>
+                        </gap>t to be <gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                           <desc>••</desc>
+                        </gap>den and <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>piſed as <gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                           <desc>••</desc>
+                        </gap>es and <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>ailes.</note> too late,</l>
+                  <l>
+                     <hi>Queſumus te.</hi>
+                  </l>
+               </lg>
+               <lg>
+                  <l>That it may pleaſe thee, it may be ſeene</l>
+                  <l>How greatly we have deluded beene,</l>
+                  <l>What wrongs hath beene offer'd to King and Queene,</l>
+                  <l>
+                     <hi>Queſumus te.</hi>
+                  </l>
+               </lg>
+               <lg>
+                  <l>That it may pleaſe thee, to ring out the knell,</l>
+                  <l>And to ſilence the Parliaments paſſing-bell,</l>
+                  <l>For 'tis time they went now to <hi>Gehenna</hi> to dwell,</l>
+                  <l>
+                     <hi>Queſumus te.</hi>
+                  </l>
+               </lg>
+               <pb n="5" facs="tcp:44071:4"/>
+               <lg>
+                  <l>That it may pleaſe thee, to make knowne the ſilly</l>
+                  <l>Undertakings of (the State-Quack) <hi>William Lilly,</hi>
+                  </l>
+                  <l>With the tricks of <hi>Syballs,</hi> and his <hi>Shoe-lane</hi> Filly,</l>
+                  <l>
+                     <hi>Queſumus te.</hi>
+                  </l>
+               </lg>
+               <lg>
+                  <l>That it may pleaſe thee, K. <hi>Noll,</hi> and his
+<note n="*" place="margin">Ireton.</note> Son,</l>
+                  <l>May into ſo many Errors run,</l>
+                  <l>That their heads may fall off when our troubles are done,</l>
+                  <l>
+                     <hi>Queſumus te.</hi>
+                  </l>
+               </lg>
+               <lg>
+                  <l>That it may pleaſe thee, to give <hi>Hammon</hi> an heart</l>
+                  <l>To play a Loyall Subjects part,</l>
+                  <l>To guard his King from thoſe would him ſubvert,</l>
+                  <l>
+                     <hi>Queſumus te.</hi>
+                  </l>
+               </lg>
+               <lg>
+                  <l>That it may pleaſe thee, to lay ope to view</l>
+                  <l>The Serpentine windings of the Trayterous Crew,</l>
+                  <l>Who have meerly deluded us with a faire ſhew,</l>
+                  <l>
+                     <hi>Queſumus te.</hi>
+                  </l>
+               </lg>
+               <lg>
+                  <l>That it may pleaſe thee, to ſtop the Coine</l>
+                  <l>Which from the poore they doe purloine,</l>
+                  <l>From paſſing over the Salt brine,</l>
+                  <l>
+                     <hi>Queſumus te.</hi>
+                  </l>
+               </lg>
+               <lg>
+                  <l>That it may pleaſe thee, their Ship to crack,</l>
+                  <l>When as they plow on Neptunes back,</l>
+                  <l>And let themſelves behold their owne wrack,</l>
+                  <l>
+                     <hi>Queſumus te.</hi>
+                  </l>
+               </lg>
+               <lg>
+                  <l>That it may pleaſe thee, thoſe that land</l>
+                  <l>On the <hi>Dutch</hi> ſhore, or <hi>Virginia's</hi> ſtrand,</l>
+                  <l>May be rob'd and ſlaine by ſome Salvadge hand,</l>
+                  <l>
+                     <hi>Queſumus te.</hi>
+                  </l>
+               </lg>
+               <lg>
+                  <l>That it may pleaſe thee, to ſend with them</l>
+                  <l>Our <hi>Eſſexian</hi> Parliament, Club-men,</l>
+                  <l>With our Citie-Sectaries, and Tub-men,</l>
+                  <l>
+                     <hi>Queſumus te.</hi>
+                  </l>
+               </lg>
+               <pb n="6" facs="tcp:44071:5"/>
+               <lg>
+                  <l>That it may pleaſe thee, ſend alſo away</l>
+                  <l>
+                     <hi>Cornelius Burges,</hi> who tother day</l>
+                  <l>Gave thankes in <hi>Pauls</hi> that his wife ſcap't a
+<note n="*" place="margin">At a Chriſt<g ref="char:EOLhyphen"/>
+                        <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>ing, where <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>he women <gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                           <desc>••</desc>
+                        </gap>trove ſo far <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>or the prece<g ref="char:EOLhyphen"/>
+                        <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>ency, that in <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>he end they <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>ent to cuffs, <hi>
+                           <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                              <desc>•</desc>
+                           </gap>ornelius</hi> his <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>ife being the <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>hiofe ſtick<g ref="char:EOLhyphen"/>
+                        <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>er, was ſorely <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>eaten.</note> fray,</l>
+                  <l>
+                     <hi>Queſumus te.</hi>
+                  </l>
+               </lg>
+               <lg>
+                  <l>That it may pleaſe thee, to reſtore</l>
+                  <l>Thoſe noble Gentlemen, that heretofore</l>
+                  <l>Have fought (for their King) to the knees in gore,</l>
+                  <l>
+                     <hi>Queſumus te.</hi>
+                  </l>
+               </lg>
+               <lg>
+                  <l>That it may pleaſe thee, the King may returne</l>
+                  <l>While the Trump doth ſound, and the Faggots burne,</l>
+                  <l>While true Subjects rejoyce and falfe Rebels do mourne,</l>
+                  <l>
+                     <hi>Queſumus te.</hi>
+                  </l>
+               </lg>
+               <lg>
+                  <l>That it may pleaſe thee, his Queene and Son</l>
+                  <l>May behold him glorious, as once they have done,</l>
+                  <l>Before theſe curſed Times begun;</l>
+                  <l>
+                     <hi>Queſumus te.</hi>
+                  </l>
+               </lg>
+               <lg>
+                  <l>That it may pleaſe thee, thoſe that ſay,</l>
+                  <l>They will not have our <hi>Charles</hi> to ſway,</l>
+                  <l>Like <hi>Dighton</hi> may rot, piece meale away,</l>
+                  <l>
+                     <hi>Queſumus te.</hi>
+                  </l>
+               </lg>
+               <lg>
+                  <l>That it may pleaſe thee, for the time that wee</l>
+                  <l>Have taſted dire adverſitie,</l>
+                  <l>We may have true Tranquillitie,</l>
+                  <l>
+                     <hi>Queſumus.</hi>
+                  </l>
+               </lg>
+               <lg>
+                  <l>That it may pleaſe thee, give us hearts to ſee</l>
+                  <l>How much we have ſmarted, and how worthily,</l>
+                  <l>For diſobeying our King and thee,</l>
+                  <l>
+                     <hi>Queſumus.</hi>
+                  </l>
+               </lg>
+               <lg>
+                  <l>That for the future, we yeelding God his owne,</l>
+                  <l>And giving <hi>Caeſar</hi> what in his Word is ſhowne,</l>
+                  <l>Warres, dire Calamities, may no more be knowne,</l>
+                  <l>So ſhall we ſing this Song each one,</l>
+                  <l>
+                     <hi>Benedicamus Domine.</hi>
+                  </l>
+               </lg>
+               <trailer>FINIS.</trailer>
+               <pb facs="tcp:44071:5"/>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>
